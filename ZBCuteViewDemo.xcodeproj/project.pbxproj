@@ -15,6 +15,7 @@
 		632A14CC1EFCD0F500ACEDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632A14CA1EFCD0F500ACEDDB /* LaunchScreen.storyboard */; };
 		632A14D71EFCD0F500ACEDDB /* ZBCuteViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A14D61EFCD0F500ACEDDB /* ZBCuteViewDemoTests.m */; };
 		632A14E21EFCD0F500ACEDDB /* ZBCuteViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A14E11EFCD0F500ACEDDB /* ZBCuteViewDemoUITests.m */; };
+		632A14F21EFCD12900ACEDDB /* ZBCuteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A14F11EFCD12900ACEDDB /* ZBCuteView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		632A14DD1EFCD0F500ACEDDB /* ZBCuteViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBCuteViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		632A14E11EFCD0F500ACEDDB /* ZBCuteViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBCuteViewDemoUITests.m; sourceTree = "<group>"; };
 		632A14E31EFCD0F500ACEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632A14F01EFCD12900ACEDDB /* ZBCuteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBCuteView.h; sourceTree = "<group>"; };
+		632A14F11EFCD12900ACEDDB /* ZBCuteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBCuteView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		632A14BB1EFCD0F500ACEDDB /* ZBCuteViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				632A14EF1EFCD11600ACEDDB /* ZBCuteView */,
 				632A14BF1EFCD0F500ACEDDB /* AppDelegate.h */,
 				632A14C01EFCD0F500ACEDDB /* AppDelegate.m */,
 				632A14C21EFCD0F500ACEDDB /* ViewController.h */,
@@ -138,6 +142,15 @@
 				632A14E31EFCD0F500ACEDDB /* Info.plist */,
 			);
 			path = ZBCuteViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		632A14EF1EFCD11600ACEDDB /* ZBCuteView */ = {
+			isa = PBXGroup;
+			children = (
+				632A14F01EFCD12900ACEDDB /* ZBCuteView.h */,
+				632A14F11EFCD12900ACEDDB /* ZBCuteView.m */,
+			);
+			path = ZBCuteView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				632A14C41EFCD0F500ACEDDB /* ViewController.m in Sources */,
 				632A14C11EFCD0F500ACEDDB /* AppDelegate.m in Sources */,
 				632A14BE1EFCD0F500ACEDDB /* main.m in Sources */,
+				632A14F21EFCD12900ACEDDB /* ZBCuteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

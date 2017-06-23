@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZBCuteView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    ZBCuteView *cuteView = [[ZBCuteView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+    cuteView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:cuteView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
